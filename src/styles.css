@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    position: relative;
+}
+
+.slider-img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1921/920;
+    object-fit: cover;
+    left: 0px;
+    top: 0px;
+}
+
+.slide-title-Class {
+    position: absolute;
+    width: 688px;
+    height: 271.167px;
+    top: 50.912px;
+    overflow: visible;
+}
+
+.slider-title {
+    left: 0px;
+    top: 0px;
+    white-space: pre-line;
+    overflow: visible;
+    width: 689px;
+    line-height: 100px;
+    margin-top: -16px;
+    font-family: Raleway-Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.545vw;
+    color: rgba(255, 255, 255, 1);
+}
+
+img {
+    overflow: clip !important;
+}
